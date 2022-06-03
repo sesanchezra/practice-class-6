@@ -1,0 +1,88 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    min-height: 100vh;
+    position: relative;
+}
+
+.btn-display-light-mode{
+    font-size: 20px;
+    display: flex;
+    border: none;
+    background-color: white;
+}
+
+.btn-display-dark-mode{
+    font-size: 20px;
+    display: flex;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.input-light-mode{
+    border:none;
+    background-color: white;
+}
+
+.input-dark-mode{
+    border:none;
+    background-color: black;
+    color: white
+}
+
+.password-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.button-mode{
+    position:absolute;
+    top:2%;
+    left:2%;
+}
+
+.btn-mode-light{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    aspect-ratio: 1;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    background-color: white;
+    font-size:20px;
+
+}
+
+.btn-mode-dark{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size:20px;
+
+}
